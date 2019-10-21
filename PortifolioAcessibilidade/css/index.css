@@ -1,0 +1,24 @@
+.groups{
+    /* width: 50%; */
+    margin-top: 70px;
+    background-color: grey;
+}
+
+.groups li{
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 20px;
+}
+
+
+body{
+   align-items: center;
+}
+body p{
+    font-size: 18px;
+ }
+
+ .imagens img{
+     width: 63%;
+     
+ }
