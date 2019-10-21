@@ -4,6 +4,17 @@
     background-color: grey;
 }
 
+.grupoCuriosidades{
+    /* width: 50%; */
+    background-color: grey;
+}
+
+.grupoCuriosidades li{
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 20px;
+}
+
 .groups li{
     background-color: #f1f1f1;
     color: black;
@@ -21,4 +32,21 @@ body p{
  .imagens img{
      width: 63%;
      
+ }
+
+ .curiosidades{
+     margin-top: 80px;  
+ }
+
+ .descobertas{
+     margin-top: 80px;
+ }
+
+ .links .btn{
+     margin-top: 20px;
+ 
+ }
+
+ .links{
+     margin-top: 10px;
  }
