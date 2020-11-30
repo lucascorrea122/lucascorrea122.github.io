@@ -1,64 +1,44 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Lucas Correa</title>
+        <link rel="stylesheet" href="assets/css/style.css ">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+       
 
-    <link rel="stylesheet" href="indexCSS/indexStyle.css">
-    <link rel="stylesheet" href="indexCSS/bootstrap.css">
-    <link rel="stylesheet" href="indexCSS/bootstrap-theme.css">
+        <title>My Portifolio</title>
+    </head>
 
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Lucas Corrêa</a>
+                </div>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+                <div>
+                    <ul class="nav__menu" id="nav-menu">
+                        <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-</head>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </nav>       
 
-<body class="container text-center">
-    <h1>Documentos - Lucas da Silva Corrêa</h1>
-    <h6>Graduando em Engenharia de Software</h6>
-    <h6>Técnico em Segurança do Trabalho</h6>
+        </header>
 
-    <hr>
-    <hr>
-
-
-
-
+        <main class="l-main"></main>
 
 
-    <div class="Cards" style="margin-top: 50px;">
-        <div class="card">
-            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-            <div class="card-body">
-                <h5 class="card-title">String Validation</h5>
-                <p class="card-text">Sistema desenvolvido em JavaScript onde solicita a entrada de uma String e uma
-                    Expressão regular para fazer uma determinda validação.</p>
-
-            </div>
-            <a href="StringValidation/index.html" class="btn btn-primary">Entrar</a>
-        </div>
-        <div class="card">
-            <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
-            <div class="card-body">
-                <h5 class="card-title">Portfólio Individual</h5>
-                <p class="card-text">Portfólio de autoavaliação contínua dos processo de ensino e aprendizagem da
-                    cadeira de "Acessibilidade e Inclusão Digital" na Univiservidade Federal do Pampa - Campus Alegrete
-                    2019/2</p>
-
-            </div>
-            <a href="PortifolioAcessibilidade/index.html" class="btn btn-primary">Entrar</a>
-        </div>
-    </div>
-</body>
-
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
