@@ -254,3 +254,32 @@ img{
     width: 200px;
     border-radius: .5rem;
 }
+
+/* SKILLS */
+.skills__container{
+    row-gap: 2rem;
+}
+.skills__subtitle{
+    color: var(--first-color);
+    margin-bottom: var(--mb-3);
+}
+.skill__name{
+    display: inline-block;
+    font-size: var(--font-semi);
+    margin-right: var(--mb-1);
+    margin-bottom: var(--mb-3);
+    padding: .25rem .5rem;
+    background-color: #fff;
+    border-radius: .25rem;
+}
+
+.skill__name:hover{
+    background-color: var(--first-color);
+    color: #fff;
+}
+
+.skills__img img{
+    border-radius: .5rem;
+}
+
+
