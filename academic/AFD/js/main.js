@@ -139,7 +139,7 @@ function palavra() {
         for(var i = 0; i<aux_Finais; i++){
             if(ultimostate == finalsStates[i]){
                 document.getElementById('aceita').style.visibility = 'Visible';
-
+                
             }else{
                 document.getElementById('rejeita').style.visibility = 'Visible';
 
