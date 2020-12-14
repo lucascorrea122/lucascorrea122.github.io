@@ -8,7 +8,7 @@
 
     <!--BootStrap CSS    -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/indexStyle.css">
@@ -17,23 +17,57 @@
     <script src="js/main.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    
+
     <h1>Construção e validação de Automatos Finitos Determinísticos</h1>
-    <hr>    
-    <input type="submit" onclick="iniciar()" value="Iniciar">
-    
+    <hr>
+    <div style="display: flex; justify-content: space-around; ">
+        <div>
+            <input type="submit" onclick="iniciar()" value="Iniciar"><br><br><br>
+            <input id="palavra" type="text" id="palavra">
+            <input type="submit" onclick="palavra()" value="Testar Palavra">
+
+        </div>
+        <div>
+            <h1 id="aceita" style="color: green; visibility: hidden;">PALAVRA ACEITA</h1>
+            <h1 id="rejeita" style="color: red; visibility: hidden;">PALAVRA NÃO ACEITA</h1>
+
+        </div>
+    </div>
+
+    <h1 id="matrizNome" style="visibility: hidden;">Matriz de Transição</h1>
+    <h2 id="Matriz"></h2>
+
+    <hr>
+    <hr>
+
+    <div style="display: flex; justify-content: space-between;">
+        <div>
+            <h1 id="SequenciaNome" style="visibility: hidden;">Sequência Percorrida Pela Palavra</h1>
+            <h2 id="Sequencia"></h2>
+
+        </div>
+        <div>
+            <h1 id="PalavraNome" style="visibility: hidden;">Palavra</h1>
+            <h2 id="palavr"></h2>
+
+        </div>
+
+    </div>
+
+
+
 </body>
 <script src="js/main.js"></script>
 
