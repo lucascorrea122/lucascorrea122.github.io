@@ -112,8 +112,10 @@ function mostrar(linhas, colunas) {
 }
 
 function palavra() {
-    document.getElementById('aceita').style.visibility = 'hidden';
     document.getElementById('rejeita').style.visibility = 'hidden';
+    document.getElementById('aceita').style.visibility = 'hidden';
+    
+    
     aux_palavra = document.getElementById('palavra').value;
     var aux_automato = automato[0];
     var count = aux_palavra.length;
