@@ -134,6 +134,10 @@ img{
     font-weight: var(--font-semi);
 }
 
+
+.experiencies-itens{
+    list-style: lower-roman;
+}
 @media screen and (max-width: 768px){
     .nav__menu{
         position: fixed;
